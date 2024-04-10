@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    height: 180vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    position: fixed;
+    text-align: left;
+    width: 90%;
+    height: 8%;
+    top:90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    border: 3px solid gray;
+    border-radius: 15px;
+}
+
+.bottomMessege{
+    position: fixed;
+    text-align: center;
+    width: 90%;
+    top:97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+   
+}
+
+.megcontainer{
+    position: fixed;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+ } 
+.webmessege{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:11px;
+ }
+
+ .logo{
+    height: 15%;
+    width: 15%;
+}
+
+.quickchat{
+    display: flex;
+   flex-wrap: wrap;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 30vh;
+    width: 90vh;
+    
+}
+
+.quickchatcontainer{
+    position: fixed;
+    width: 80%;
+    top:67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+.qc{
+    background-color: beige;
+    border-radius: 10px;
+    width: 40vh;
+    text-align: center;
+    padding-top: 30px;
+
+}
